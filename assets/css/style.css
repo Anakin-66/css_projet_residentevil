@@ -68,12 +68,11 @@ h2 {
 }
 /* Bouton en savoir plus */
 .btn {
-    border:  solid rgba(255, 0, 0, 0.315);
     color: white;
     background-color: rgba(255, 0, 0, 0.521);
-    border-width: 7px 20px;
+    padding: 7px 20px;
     text-decoration: none;
-}   
+}
 section {
     margin: 10px 400px;
 }
