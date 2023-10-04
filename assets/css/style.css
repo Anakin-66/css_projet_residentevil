@@ -1,0 +1,155 @@
+/* JE SUIS DESOLE, LE CSS EST UN BORDEL PAS POSSIBLE */
+
+body {
+    margin: 0%;
+    font-family: Roboto
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+/* CSS Nav */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 20px;
+}
+
+li {
+    margin: 5px;
+    font-weight: bold;
+}
+.visited-color:visited {
+    color: black;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin: 25px;
+}
+/* CSS Banner */
+#banner {
+    background-image: url(../../banner.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.logo-1 {
+    height: 20vh;
+    margin-top: 30px;
+}
+.espacement-texte {
+    margin: 10px;
+}
+/* CSS Main */
+h1 {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+/* Bouton en savoir plus */
+.btn {
+    border:  solid rgba(255, 0, 0, 0.315);
+    color: white;
+    background-color: rgba(255, 0, 0, 0.521);
+    border-width: 7px 20px;
+    text-decoration: none;
+}   
+section {
+    margin: 10px 400px;
+}
+
+.vignettes
+{
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    margin: 10px;
+}
+
+img {
+    height: 25vh;
+}
+
+.centre-texte {
+    text-align: center;
+} 
+
+.texte-vignette {
+    background-color: #2E2E2E;
+    color: white;
+} 
+
+h3 {
+    margin: 30px;
+}
+
+p {
+    padding: 30px;
+    padding-bottom: 50px;
+}
+/* CSS PRE-FOOTER */
+#pre-footer {
+    background-color: #2E2E2E;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.pre-footer-2 {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+/* Formulaire */
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+/* CSS FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.logo-2 {
+    height: 3vh;
+    position: absolute;
+    left: 200px;
+    top: 13px;
+}
+
+ul {
+    margin-right: 275px;
+}
