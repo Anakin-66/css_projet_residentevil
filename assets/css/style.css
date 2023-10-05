@@ -2,7 +2,7 @@
 
 body {
     margin: 0%;
-    font-family: Roboto
+    font-family: Roboto;
 }
 
 @font-face {
@@ -12,16 +12,16 @@ body {
 /* CSS Nav */
 nav {
     display: flex;
-    justify-content: center;
-    margin-left: 160px;
+    justify-content: center; 
     
 }
 
-ul {
+.ul-top {
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    gap: 20px;
+    
+    
 }
 
 li {
@@ -140,19 +140,124 @@ footer {
     color: white;
     display: flex;
     justify-content: flex-end;
-    position: relative;
 }
 .logo-2 {
     height: 3vh;
-    position: absolute;
-    left: 200px;
-    top: 13px;
+    padding-right: 450px;
+}
+.ul-bot {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 125px;
+    white-space: nowrap;
 }
 
-ul {
-    margin-right: 275px;
+
+@media screen and (max-width:1024px){
+    img {
+        width: 100%;
+    }
+    section {
+        margin: 10px 100px;
+    }
+    #banner {
+        height: 30vh;
+        font-size: 25px;
+    }
+    .logo-1 {
+        height: 15vh;
+        width: 70vh;
+        margin-top: 30px;
+    }
+    .espacement-texte {
+        padding-top: 10px;
+        font-size: 20px;
+        
+    }
+    .vignettes {
+        margin: 10px ;
+    }
+    .ul-bot {
+        flex-wrap: wrap;
+        padding-left: 125px;
+        
+    }
+    .logo-2 {
+        height: 5vh;
+        width: 100px;
+        padding-right: 0px;
+    }
 }
-
-@media screen and (max-width:700px){
-
+@media screen and (max-width:768px) {
+    img {
+        width: 100%;
+    }
+    #banner {
+        height: 25vh;
+        width: 93vh;
+        font-size: 25px;
+    }
+    .logo-1 {
+        height: 10vh;
+        margin-top: 30px;
+    }
+   .texte-vignette {
+        font-size: 11px;
+   }
+   .titre-vignettes {
+        font-size: 15px;
+   }
+   .ul-bot {
+    padding: 0;
+    padding-left: 60px;
+   }
+}
+@media screen and (max-width:425px) {
+    #banner {
+        height: 20vh;
+        width: 52vh;
+        font-size: 20px;
+    }
+    .logo-1 {
+        height: 8vh;
+        width: 40vh;
+        margin-top: 30px;
+    }
+    .espacement-texte {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .ul-top {
+        padding: 0;
+        font-size: 11px;
+    }
+    .vignettes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .centre-texte{
+        margin: 10px;
+    }
+    .texte-vignettes {
+        font-size: 15px;
+    }
+    .titre-vignettes {
+        font-size: 20px;
+    }
+    footer {
+        justify-content: center;
+    }
+    .ul-bot {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        padding-left: 30px;
+        font-size: 11px;
+    }
+    .logo-2 {
+        position: absolute;
+        left: 20px;
+    }
 }
