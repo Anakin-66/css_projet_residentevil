@@ -42,7 +42,7 @@ a {
 }
 /* CSS Banner */
 #banner {
-    background-image: url(../../banner.jpg);
+    background-image: url(../img/banner.jpg);
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -151,4 +151,8 @@ footer {
 
 ul {
     margin-right: 275px;
+}
+
+@media screen and (max-width:700px){
+
 }
